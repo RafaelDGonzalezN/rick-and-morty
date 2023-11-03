@@ -29,9 +29,10 @@
 // })
 // .listen(3001, "localhost")
 
-const express = require('express');
+// const express = require('express');
 // const router = require ("./routes/index")
-const server = express();
+// const server = express();
+const server = require("./app")
 const PORT = 3001;
 
 // server.use((req, res, next) => {
